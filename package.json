@@ -1,0 +1,23 @@
+{
+  "name": "jkamzi.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkamzi/jkamzi.github.io.git"
+  },
+  "keywords": [],
+  "author": "Rikard Jansson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkamzi/jkamzi.github.io/issues"
+  },
+  "homepage": "https://github.com/jkamzi/jkamzi.github.io#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
