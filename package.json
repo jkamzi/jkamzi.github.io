@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy && compile:assets",
+    "build": "eleventy && npm run compile:assets",
     "start": "npx rimraf _site/ && npx concurrently \"npm:dev*\"",
     "dev:serve": "NODE_ENV=development eleventy --serve",
     "dev:assets": "postcss assets/styles.css -o _site/css/styles.css -w",
